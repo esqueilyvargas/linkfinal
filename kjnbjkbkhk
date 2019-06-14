@@ -1,0 +1,81 @@
+#top-bar ul {
+  list-style-type: none;
+  margin: 0px;
+  padding:0px;
+  overflow: hidden;
+  background-color: #f9805c;
+  justify-content: center;
+  height: 55px;
+  text-align: center;
+  width: inherit;
+}
+
+#top-bar li{
+  float: center;
+
+}
+
+#top-bar li a, .drop-btn{
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 14px  16px;
+  text-decoration: none;
+
+}
+
+#top-bar li a:hover, .dropdown:hover, .drop-btn:hover{
+  background-color: #f75f44;
+}
+
+#top-bar li.dropdown{
+  display: inline-block;
+}
+
+.dropdown-content{
+  display: block;
+  position: absolute;
+  background-color:#f9805c;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  position: absolute;
+  color: #ffffff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover{
+  background-color: #f75f44;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+.sb {
+  float: right;
+  width: 500px;
+  padding-left: 900px;
+}
+.em {
+  padding-top: 0px;
+  align: middle;
+  padding-right: 20px;
+  float: right;
+  width: 500px;
+}
+
+.container45 {
+  padding-right: 20px;
+  padding-top: 120px;
+  float: right;
+  width: 300px;
+  background-color: #f9805c;
+}

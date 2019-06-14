@@ -1,0 +1,54 @@
+.consent {
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: 10px solid white;
+    background-color:white;
+  }
+  .text1 {
+    margin-right: 50px;
+    font-size: 20px;
+  }
+  .text2 {
+    font-size: 20px;
+  }
+  .text3 {
+    font-size: 20px;
+  }
+  .birth {
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: 10px solid white;
+    background-color:white;
+  }
+  .choose {
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 10px solid white;
+    background-color:white;
+  }
+  #uterus {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+  }
+  #consentpic {
+    object-fit: cover;
+  }
+  .abpic {
+    margin-left: 50px;
+    margin-right: 0px;
+  }
+  .bodytext {
+    background-color: #ff617e;
+    border: 20px solid white;
+  }
+  .everything {
+    border: 20px solid #ff617e;
+  }
